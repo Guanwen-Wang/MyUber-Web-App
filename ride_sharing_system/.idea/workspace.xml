@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97167246-7aef-4e6f-abea-158f786c7e48" name="Default Changelist" comment="" />
+    <list default="true" id="97167246-7aef-4e6f-abea-158f786c7e48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/migrations/0002_auto_20190206_1810.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/css/base_generic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/image/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/static/image/golden_gate_bridge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/base_generic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/edit_my_account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/edit_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/make_share_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/my_account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/my_driving_request_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/my_own_request_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/my_own_request_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/my_share_request_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/open_order_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/open_order_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/open_share_order_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/open_share_order_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/request_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/shared_request_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/update_my_own_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/update_my_share_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/myapp/upgrade_as_driver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/myapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/myapp/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride_sharing_system/templates/registration/password_reset_form.html" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +102,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ride_sharing_system/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
+            <state relative-caret-position="136">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -121,6 +190,9 @@
       <find>next</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -150,11 +222,13 @@
     <option name="width" value="1392" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,18 +335,18 @@
       <workItem from="1549505947673" duration="1364000" />
       <workItem from="1549513753571" duration="574000" />
       <workItem from="1549564276561" duration="19000" />
+      <workItem from="1549592276661" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18579000" />
+    <option name="totallyTimeSpent" value="18608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1392" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26962963" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27333334" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -488,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ride_sharing_system/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
+        <state relative-caret-position="136">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
