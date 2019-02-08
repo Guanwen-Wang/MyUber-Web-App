@@ -1,0 +1,68 @@
+{#{% extends "base_generic.html" %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#    <h1>All Available Requests</h1>#}
+{#    {% if requests_list %}#}
+{##}
+{#      {% for order in requests_list %}#}
+{#          <li>#}
+{#          <a href="{{ order.get_absolute_url }}">{{ order.destination }}</a> ({{order.status}})#}
+{#          </li>#}
+{#      {% endfor %}#}
+{##}
+{##}
+{#    {% else %}#}
+{#      <p>No requests.</p>#}
+{#    {% endif %}#}
+{#    <h4>open_order_list</h4>#}
+{#{% endblock %}#}
+
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <div style="margin-top: 50px; margin-left: 50px">
+        <h1>All Available Open Requests</h1>
+        {% if requests_list %}
+            {% if user.license_num %}
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Arrival Time</th>
+                    <th scope="col">Passengers Number</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Operation</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                {% for order in requests_list %}
+                <tr>
+                    <td><a  style="margin-left: 10px">{{ order.destination }}</a ></td>
+                    <td><strong>{{ order.arrival_time }}</strong></td>
+                    <td><span style="margin-left: 70px"><strong>{{ order.passenger_number }}</strong></span></td>
+                    <td><h5><span class="badge badge-light" style="margin-left: 5px">{{ order.status }}</span></h5></td>
+                    <td>{% if order.status == "open" %}
+                        <h5 style="display: inline-block" ><span class="badge badge-warning"><a href=" {{ order.get_absolute_url }}">confirm</a ></span></h5>
+{#                        <form action="" method="post">#}
+{#                            {% csrf_token %}#}
+{#                            <button type="submit">Confirm</button>#}
+{#                        </form>#}
+                    {% else %}
+                    {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+
+        {% else %}
+            <p>No requests.</p >
+                {% endif %}
+        {% endif %}
+        <h4>open_order_list</h4>
+    </div>
+{% endblock %}

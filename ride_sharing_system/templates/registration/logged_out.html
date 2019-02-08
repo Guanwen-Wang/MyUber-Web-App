@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="jumbotron" style="margin-top: 12%; filter:alpha(opacity=30); -moz-opacity:0.7; opacity:0.7;">
+        <h3 class="display-4">Successfully logged out!</h3>
+        <p class="lead">We appreciate every customer using our website and sincerely hope you have a safe journey.</p >
+        <hr class="my-4">
+{#        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p >#}
+        <a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button">Login back again</a >
+    </div>
+{% endblock %}

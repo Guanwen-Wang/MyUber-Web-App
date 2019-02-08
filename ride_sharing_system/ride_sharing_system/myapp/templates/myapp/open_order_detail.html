@@ -1,0 +1,35 @@
+{#{% extends "base_generic.html" %}#}
+{##}
+{#{% block content %}#}
+{#  <h1>Destination: {{ order.destination }}</h1>#}
+{##}
+{#  <p><strong>Destination:</strong> <a href="{% url 'all-requests' %}">{{ order.destination }}</a></p> <!-- author detail link not yet defined -->#}
+{#  <p><strong>Arrival Time:</strong> {{ order.arrival_time }}</p>#}
+{#    <form action="" method="post">{% csrf_token %}#}
+{#   <button type="submit" href="">Confirm</button>#}
+{#    </form>#}
+{#    <h4>open_order_detail</h4>#}
+{#  <div style="margin-left:20px;margin-top:20px">#}
+{##}
+{#  </div>#}
+{#{% endblock %}#}
+
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <div style="margin-left: 50px; margin-top: 50px;">
+        <h1>Order: {{ order.destination }}</h1>
+
+        <p><strong>Destination:</strong> {{ order.destination }}</p >
+        <p><strong>Arrival Time:</strong> {{ order.arrival_time }}</p >
+        <p><strong>Passenger Number:</strong> {{ order.passenger_number }}</p >
+        <p><strong>Sharer:</strong>{{ order.sharer }}</p >
+        <p><strong>Status:</strong> {{ order.status }}</p >
+        <form action="" method="post">
+            {% csrf_token %}
+            <a href=" {% url 'all-requests' %}" class="btn btn-secondary">Back view open list</a >
+            <button type="submit" class="btn btn-success">Confirm</button>
+        </form>
+        <h4 style="margin-top: 50px;">open_order_detail</h4>
+    </div>
+{% endblock %}

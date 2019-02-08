@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <div style="margin-left: 50px; margin-top: 50px;">
+        <h1>Update Your Share Request</h1>
+        <h5 style="margin-top: 40px">You are not allowed to edit other information</h5>
+        <form action="" method="post">
+            {% csrf_token %}
+            <table>
+{#                          <p><label for="destination">Destination</label>#}
+{#                                <input type="text" class="form-control" id="destination" name="destination" value={{ order.destination }}></p >#}
+{#                         <p><label for="arrival_time">Arrival Time</label>#}
+{#                                <input type="text" class="form-control" id="arrival_time" name="arrival_time" value={{ order.arrival_time }}></p >#}
+                <p><label for="share_pass_num">My Sharer Number</label>
+                    <input type="number" min="1" max="6" class="form-control" id="share_pass_num" name="share_pass_num" required style="width: 40%"
+                           value={{ order.share_pass_num }}></p >
+            </table>
+            <input type="submit" value="Submit" class="btn btn-success"/>
+        </form>
+    </div>
+{% endblock %}

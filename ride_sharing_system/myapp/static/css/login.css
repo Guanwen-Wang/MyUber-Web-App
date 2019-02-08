@@ -1,0 +1,16 @@
+.box{
+  position: relative;
+  background-color: aliceblue;
+  width: 550px;
+  height: 350px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px gray;
+  filter:alpha(opacity=30);
+  -moz-opacity:0.7;
+  opacity:0.7;
+  /*padding-left: 12%;*/
+  padding-top: 5%;
+}
